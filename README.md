@@ -60,8 +60,8 @@ Se o **ID de Cosmético** for `Character_NebulaFN` e for um traje, ela deve ser 
 ```json
 {
     "//": "BR Item Shop Config",
-    "daily1": {"itemGrants": ["AthenaCharacter:Character_EonFN"], "price": 1200},
-    "daily2": {"itemGrants": ["AthenaPickaxe:Pickaxe_EonFN"], "price": 800},
+    "daily1": {"itemGrants": ["AthenaCharacter:Character_NebulaFN"], "price": 1200},
+    "daily2": {"itemGrants": ["AthenaPickaxe:Pickaxe_NebulaFN"], "price": 800},
     "daily3": {"itemGrants": ["AthenaDance:Dance_Flare"], "price": 500},
     "daily4": {"itemGrants": ["AthenaItemWrap:Wrap_Galaxy"], "price": 300},
     "daily5": {"itemGrants": ["AthenaGlider:Glider_StarSurfer"], "price": 1500},
