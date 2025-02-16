@@ -1,17 +1,17 @@
 # ⚠️ IMPORTANTE ⚠️  
-Você pode recuperar todos os cosméticos do Fortnite em **[Fortnite.GG](https://fortnite.gg/cosmetics)**.
+Você pode achar todos os cosméticos do Fortnite em **[Fortnite.GG](https://fortnite.gg/cosmetics)**.
 
 ### Requisitos:
-1. **Os cosméticos devem ser da Temporada 2 do Capítulo 2 (Versão 12.41) ou anterior.** Qualquer coisa mais recente não funcionará.
+1. **Os cosméticos devem ser da Temporada 2 do Capítulo 2 (Versão 12.41) ou anterior.** (Qualquer coisa mais recente não funcionará.)
 2. **Certifique-se de que os preços em V-Bucks correspondem aos preços originais do Fortnite.**
-3. **Use o formato correto de ID de Cosmético.** Caso contrário, os itens não funcionarão corretamente.
+3. **Use o formato correto de ID de Cosmético.** (Caso contrário, os itens não funcionarão corretamente.)
 
 ---
 
 ## 🔧 Como Configurar Sua Loja de Itens
 
 ### **Passo 1: Entenda o Formato da Configuração**  
-A configuração da loja de itens segue esta estrutura:
+A configuração da loja de itens segue essa estrutura:
 
 ```json
 {
@@ -30,11 +30,11 @@ A configuração da loja de itens segue esta estrutura:
 ```
 
 ---
-## Passo 2: Use o Formato Correto de ID de Cosmético  
-Cada item no Fortnite tem uma **ID de Cosmético** que deve seguir um formato específico.
+## Passo 2: Use o Formato Correto de ID dos Cosméticos
+Cada item no Fortnite tem um **ID de Cosmético** que deve seguir um formato específico.
 
 #### ✅ Exemplo:  
-Se a **ID de Cosmético** for `Character_NebulaFN` e for um traje, ela deve ser formatada como:  
+Se o **ID de Cosmético** for `Character_NebulaFN` e for um traje, ela deve ser formatada como:  
 ```json
 "AthenaCharacter:Character_NebulaFN"
 ```
@@ -51,9 +51,9 @@ Se a **ID de Cosmético** for `Character_NebulaFN` e for um traje, ela deve ser 
 
 ---
 
-#### **Passo 3: Preencha Sua Loja de Itens**
+#### **Passo 3: Adicione itens a Sua Loja**
 
-- **`itemGrants`**: Os itens que estarão disponíveis para compra, identificados pela sua ID de Cosmético.
+- **`itemGrants`**: Os itens que estarão disponíveis para compra, identificados pelo ID de Cosmético.
 - **`price`**: O custo do item em V-Bucks (deve corresponder ao preço original do Fortnite).
 
 #### ✅ Exemplo de Configuração de Loja de Itens:
