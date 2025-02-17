@@ -15,17 +15,43 @@ A configuração da loja de itens segue essa estrutura:
 
 ```json
 {
-    "//": "Configuração da Loja BR",
-    "daily1": {"itemGrants": [""], "price": 0},
-    "daily2": {"itemGrants": [""], "price": 0},
-    "daily3": {"itemGrants": [""], "price": 0},
-    "daily4": {"itemGrants": [""], "price": 0},
-    "daily5": {"itemGrants": [""], "price": 0},
-    "daily6": {"itemGrants": [""], "price": 0},
-    "featured1": {"itemGrants": [""], "price": 0},
-    "featured2": {"itemGrants": [""], "price": 0},
-    "featured3": {"itemGrants": [""], "price": 0},
-    "featured4": {"itemGrants": [""], "price": 0}            
+  "//": "BR Item Shop Config",
+  "daily1": {
+      "itemGrants": [""],
+      "price": 0
+  },
+  "daily2": {
+      "itemGrants": [""],
+      "price": 0
+  },
+  "daily3": {
+      "itemGrants": [""],
+      "price": 10
+  },
+  "daily4": {
+      "itemGrants": [""],
+      "price": 0
+  },
+  "daily5": {
+      "itemGrants": [""],
+      "price": 0
+  },
+  "featured1": {
+      "itemGrants": [""],
+      "price": 0
+  },
+  "featured2": {
+      "itemGrants": [""],
+      "price": 0
+  },
+  "featured3": {
+      "itemGrants": [""],
+      "price": 0
+  },
+  "featured4": {
+      "itemGrants": [""],
+      "price": 0
+  }
 }
 ```
 
@@ -59,17 +85,43 @@ Se o **ID de Cosmético** for `Character_NebulaFN` e for um traje, ela deve ser 
 #### ✅ Exemplo de Configuração de Loja de Itens:
 ```json
 {
-    "//": "BR Item Shop Config",
-    "daily1": {"itemGrants": ["AthenaCharacter:Character_NebulaFN"], "price": 1200},
-    "daily2": {"itemGrants": ["AthenaPickaxe:Pickaxe_NebulaFN"], "price": 800},
-    "daily3": {"itemGrants": ["AthenaDance:Dance_Flare"], "price": 500},
-    "daily4": {"itemGrants": ["AthenaItemWrap:Wrap_Galaxy"], "price": 300},
-    "daily5": {"itemGrants": ["AthenaGlider:Glider_StarSurfer"], "price": 1500},
-    "daily6": {"itemGrants": ["AthenaLoadingScreen:LoadingScreen_Galactic"], "price": 200},
-    "featured1": {"itemGrants": ["AthenaCharacter:Character_Drift"], "price": 2000},
-    "featured2": {"itemGrants": ["AthenaDance:Dance_DefaultDance"], "price": 200},
-    "featured3": {"itemGrants": ["AthenaSkyDiveContrail:Contrail_Rainbow"], "price": 400},
-    "featured4": {"itemGrants": ["AthenaItemWrap:Wrap_Camo"], "price": 600}
+  "//": "BR Item Shop Config",
+  "daily1": {
+      "itemGrants": ["AthenaDance:EID_TakeTheL"],
+      "price": 3000
+  },
+  "daily2": {
+      "itemGrants": ["AthenaDance:EID_HappySkipping"],
+      "price": 3000
+  },
+  "daily3": {
+      "itemGrants": ["AthenaPickaxe:Pickaxe_ID_020_Keg"],
+      "price": 1500
+  },
+  "daily4": {
+      "itemGrants": ["AthenaBackpack:BID_229_LuckyRiderMale"],
+      "price": 1500
+  },
+  "daily5": {
+      "itemGrants": ["AthenaCharacter:CID_717_Athena_Commando_F_BlueFlames"],
+      "price": 2500
+  },
+  "featured1": {
+      "itemGrants": ["AthenaCharacter:CID_716_Athena_Commando_M_BlueFlames"],
+      "price": 2500
+  },
+  "featured2": {
+      "itemGrants": ["AthenaCharacter:CID_709_Athena_Commando_F_BandolierSlurp"],
+      "price": 2600
+  },
+  "featured3": {
+      "itemGrants": ["AthenaCharacter:CID_570_Athena_Commando_M_SlurpMonster"],
+      "price": 2600
+  },
+  "featured4": {
+      "itemGrants": ["AthenaCharacter:CID_616_Athena_Commando_F_CavalryBandit"],
+      "price": 1800
+  }
 }
 ```
 
